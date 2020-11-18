@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
-    "test": "npm run lint && mocha tests",
+    "test": "mocha tests",
     "coverage": "nyc npm run test",
     "start": "node index.js"
   },
